@@ -1,0 +1,79 @@
+/* ELEMENTS */
+
+header {
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+nav * {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CLASSES */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.main-header {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.sub-header {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Sintony, sans-serif;
+}
+
+.o-margin {
+    margin: 0;
+}
+
+/* ID */
+#logo {
+    height: 24px;
+    width: auto;
+}
+
+#first-block {
+    background-image: linear-gradient(to right,
+    rgb(233,241,226),
+    rgb(222,222,219));
+    padding-top: 3%;
+}
+
+#second-block {
+    justify-content: space-between;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+
+#sb-img-container {
+    margin-left: 0;
+}
+
+#sb-article {
+    margin-right: 9%;
+}
+
+/* COMB */
+.main-header,
+nav * {
+    font-family: Tomorrow, wonderella, sans-serif;
+}
